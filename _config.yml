@@ -1,0 +1,6 @@
+name: jekyll base
+
+markdown: kramdown
+
+kramdown:
+  input: GFM

@@ -1,0 +1,108 @@
+I"X<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">/* ========================================
+   Base
+   ======================================== */</span>
+
+<span class="o">*,</span>
+<span class="o">*</span><span class="nd">::before</span><span class="o">,</span>
+<span class="o">*</span><span class="nd">::after</span> <span class="p">{</span>
+  <span class="nl">box-sizing</span><span class="p">:</span> <span class="nb">border-box</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">html</span> <span class="p">{</span>
+  <span class="nl">font-family</span><span class="p">:</span>
+    <span class="o">-</span><span class="n">apple-system</span><span class="p">,</span>
+    <span class="n">BlinkMacSystemFont</span><span class="p">,</span>
+    <span class="s1">"Segoe UI"</span><span class="p">,</span>
+    <span class="s1">"Noto Sans"</span><span class="p">,</span>
+    <span class="n">Helvetica</span><span class="p">,</span>
+    <span class="n">Arial</span><span class="p">,</span>
+    <span class="nb">sans-serif</span><span class="p">;</span>
+
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">14px</span><span class="p">;</span>
+  <span class="nl">line-height</span><span class="p">:</span> <span class="m">1.5</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">body</span> <span class="p">{</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="nx">#1f2328</span><span class="p">;</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="nx">#ffffff</span><span class="p">;</span>
+<span class="p">}</span>
+
+
+<span class="c">/* ========================================
+   Page layout
+   ======================================== */</span>
+
+<span class="nt">body</span> <span class="o">&gt;</span> <span class="nt">nav</span><span class="o">,</span>
+<span class="nt">body</span> <span class="o">&gt;</span> <span class="nt">main</span> <span class="p">{</span>
+  <span class="py">inline-size</span><span class="p">:</span> <span class="nf">min</span><span class="p">(</span><span class="m">100%</span> <span class="o">-</span> <span class="m">2rem</span><span class="p">,</span> <span class="m">70rem</span><span class="p">);</span>
+  <span class="py">margin-inline</span><span class="p">:</span> <span class="nb">auto</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">body</span> <span class="o">&gt;</span> <span class="nt">nav</span> <span class="p">{</span>
+  <span class="nl">position</span><span class="p">:</span> <span class="nb">sticky</span><span class="p">;</span>
+  <span class="py">inset-block-start</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+
+  <span class="py">padding-block</span><span class="p">:</span> <span class="m">1rem</span><span class="p">;</span>
+
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">1.125rem</span><span class="p">;</span>
+
+  <span class="nl">background</span><span class="p">:</span> <span class="nx">#ffffff</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">body</span> <span class="o">&gt;</span> <span class="nt">main</span> <span class="p">{</span>
+  <span class="py">padding-block</span><span class="p">:</span> <span class="m">2rem</span> <span class="m">3rem</span><span class="p">;</span>
+<span class="p">}</span>
+
+
+<span class="c">/* ========================================
+   Typography
+   ======================================== */</span>
+
+<span class="nt">a</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="nx">#0969da</span><span class="p">;</span>
+  <span class="nl">text-decoration</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">a</span><span class="nd">:hover</span> <span class="p">{</span>
+  <span class="nl">text-decoration</span><span class="p">:</span> <span class="nb">underline</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">h1</span><span class="o">,</span>
+<span class="nt">h2</span><span class="o">,</span>
+<span class="nt">h3</span><span class="o">,</span>
+<span class="nt">h4</span><span class="o">,</span>
+<span class="nt">h5</span><span class="o">,</span>
+<span class="nt">h6</span> <span class="p">{</span>
+  <span class="py">margin-block</span><span class="p">:</span> <span class="m">1.5rem</span> <span class="m">1rem</span><span class="p">;</span>
+  <span class="nl">font-weight</span><span class="p">:</span> <span class="m">600</span><span class="p">;</span>
+  <span class="nl">line-height</span><span class="p">:</span> <span class="m">1.25</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">h1</span> <span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">2rem</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">h2</span> <span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">1.5rem</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">h3</span> <span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">1.25rem</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">h4</span> <span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">1rem</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">h5</span> <span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">0.875rem</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">h6</span> <span class="p">{</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">0.75rem</span><span class="p">;</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="nx">#59636e</span><span class="p">;</span>
+<span class="p">}</span>
+
+</code></pre></div></div>
+:ET

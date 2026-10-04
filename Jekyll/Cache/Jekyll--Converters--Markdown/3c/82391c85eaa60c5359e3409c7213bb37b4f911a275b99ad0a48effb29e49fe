@@ -1,0 +1,41 @@
+I"O<p>os</p>
+<ul>
+  <li>arch</li>
+  <li>macos</li>
+  <li>windows
+apps</li>
+  <li>cli
+    <ul>
+      <li>ssh</li>
+      <li>git</li>
+      <li>gh</li>
+    </ul>
+  </li>
+  <li>tui
+    <ul>
+      <li>nnn</li>
+      <li>tuigreet</li>
+      <li>htop</li>
+      <li>mc</li>
+    </ul>
+  </li>
+  <li>niri</li>
+  <li>alacritty</li>
+  <li>foot</li>
+  <li>firefox
+    <ul>
+      <li>ubo</li>
+      <li>bitwarden</li>
+      <li>webclipper</li>
+    </ul>
+  </li>
+  <li>telegram</li>
+  <li>zed</li>
+  <li>obsidian</li>
+  <li>mpv
+services</li>
+  <li>protonmail</li>
+  <li>github</li>
+  <li>ghpages</li>
+</ul>
+:ET
