@@ -1,4 +1,5 @@
 ---
+title: Quest
 layout: default
 order: 2
 nav: true
