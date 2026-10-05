@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    {% if page.title %}
+      {{ page.title }} — {{ site.name }}
+    {% else %}
+      {{ site.name }}
+    {% endif %}
+  </title>
+
+  <link rel="icon" href="{{ '/assets/favicon.ico' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/markdown.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/syntax.css' | relative_url }}">
+</head>
+
+<body>
+
+  <aside class="sidebar">
+    <nav>
+      <a class="site-title" href="{{ '/' | relative_url }}">FA EB FE</a>
+
+      <ul>
+        {% assign nav_pages = site.pages | where: "nav", true | sort: "order" %}
+
+        {% for item in nav_pages %}
+          <li>
+            <a href="{{ item.url | relative_url }}"
+               {% if page.url == item.url %}aria-current="page"{% endif %}>
+              {{ item.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </aside>
+
+  <main>
+    {{ content }}
+  </main>
+
+</body>
+</html>

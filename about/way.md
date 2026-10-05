@@ -1,4 +1,10 @@
 ---
+title: Way
+order: 12
+nav: true
+---
+
+---
 layout: default
 title: way
 ---

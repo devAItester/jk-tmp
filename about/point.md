@@ -1,4 +1,10 @@
 ---
+title: Point
+order: 10
+nav: true
+---
+
+---
 layout: default
 title: about
 permalink: /about/point.html
