@@ -6,10 +6,7 @@ nav: true
 ---
 
 # {{ page.title }}
----
-layout: default
-title: Priority
----
+
 ```css
 /* ========================================
    Base
