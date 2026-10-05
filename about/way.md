@@ -1,7 +1,10 @@
 ---
 title: Way
 layout: default
+order: 9
+nav: true
 ---
+
 # {{ page.title }}
 ---
 layout: default
