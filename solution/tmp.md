@@ -5,6 +5,7 @@ permalink: /solution/
 order: 4
 nav: true
 ---
+# {{ page.title }}
 
 ===
 ```html

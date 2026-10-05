@@ -1,9 +1,8 @@
 ---
 title: Priority
-order: 11
-nav: true
+layout: default
 ---
-
+# {{ page.title }}
 ---
 layout: default
 title: Priority

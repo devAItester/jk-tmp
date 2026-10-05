@@ -1,8 +1,11 @@
 ---
 title: Point
+layout: default
 order: 10
 nav: true
 ---
+
+# {{ page.title }}
 
 ---
 layout: default

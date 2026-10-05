@@ -1,9 +1,8 @@
 ---
 title: Way
-order: 12
-nav: true
+layout: default
 ---
-
+# {{ page.title }}
 ---
 layout: default
 title: way

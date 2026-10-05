@@ -1,10 +1,7 @@
 ---
 layout: default
-title: quest
-permalink: /quest/
-order: 3
+order: 2
 nav: true
 ---
 
-# Quest
-
+# {{ page.title }}
