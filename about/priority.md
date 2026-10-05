@@ -1,7 +1,10 @@
 ---
 title: Priority
 layout: default
+order: 8
+nav: true
 ---
+
 # {{ page.title }}
 ---
 layout: default
@@ -113,5 +116,4 @@ h6 {
   font-size: 0.75rem;
   color: #59636e;
 }
-
 ```
