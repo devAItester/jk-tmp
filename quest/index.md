@@ -8,4 +8,3 @@ nav: true
 
 # Quest
 
-{% include tree.html dir=page.dir url=page.url %}
