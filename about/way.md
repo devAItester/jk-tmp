@@ -6,10 +6,7 @@ nav: true
 ---
 
 # {{ page.title }}
----
-layout: default
-title: way
----
+
 os
   - arch
   - macos
